@@ -1,0 +1,59 @@
+ *,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-btn {
+  display: block;
+  width: 300px;
+  border-radius: 5px;
+  margin: 100px auto  0;
+  color: #f1f1f1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgb(103,75,224);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: height 0.4s ease-in-out;
+}
+
+.bloc-top {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.bloc-top img {
+  width: 20px;
+}
+
+.bloc-links {
+  padding: 0 22px;
+  list-style-type: none;
+}
+.bloc-links li {
+  padding: 5px 0;
+  text-align: left;
+}
+.bloc-links a {
+  font-size: 18px;
+  color: #f1f1f1;
+  margin-left: 5px;
+}
+.bloc-links li:last-child {
+  padding-bottom: 25px;
+} 
+
+
